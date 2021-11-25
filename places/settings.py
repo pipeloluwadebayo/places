@@ -26,7 +26,7 @@ SECRET_KEY = ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['adebayopipeloluwa.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -125,11 +125,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 
-GOOGLE_API_KEY = "AIzaSyBbE6wjWW9IoHgDGV-qo7fokr34ynZSpQU"
+GOOGLE_API_KEY = ""
 
-RECAPTCHA_KEY = "6LeCrzAdAAAAAIaXsd9Uia8nS8iVmx8nkL26cbw-"
+RECAPTCHA_KEY = ""
 
-RECAPTCHA_SECRET_KEY = "6LeCrzAdAAAAAM5Jy28hMwvLeVVKMb5qogB-XfyE"
+RECAPTCHA_SECRET_KEY = ""
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
